@@ -31,7 +31,7 @@ El objetivo es **unir ambos datasets a pesar del ruido en los nombres**, para po
 ## 📂 Estructura del proyecto
 
 ```
-├── 6_3_Proyecto_Python.py       # Script principal (todo el pipeline)
+├── cruce_ventas.py              # Script principal (todo el pipeline)
 ├── Ventas.csv                   # Dataset original de ventas (con nombres "sucios")
 ├── Vendedores.csv               # Dataset con nombres correctos y vendedor asignado
 ├── resultados_cruce.csv         # Salida: ventas ya cruzadas con nombre correcto y vendedor
@@ -45,7 +45,7 @@ El objetivo es **unir ambos datasets a pesar del ruido en los nombres**, para po
 
 ```bash
 pip install pandas thefuzz fpdf matplotlib
-python 6_3_Proyecto_Python.py
+python cruce_ventas.py
 ```
 
 El script genera automáticamente los CSV, los PNG y el PDF en el directorio de trabajo definido dentro del script.
